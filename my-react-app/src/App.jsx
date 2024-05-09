@@ -6,6 +6,7 @@ import Button from "./Button";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
+import ProfilePicture from "./profilePicture";
 
 function App() {
   const fruits = [
@@ -42,6 +43,8 @@ function App() {
       <UserGreeting/>
       {fruits.length > 0 && <List items={fruits} category={"Fruits"}/>}
       {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
+      <Button />
+      <ProfilePicture />
     </>
   );  
 }

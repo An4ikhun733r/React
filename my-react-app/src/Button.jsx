@@ -9,8 +9,12 @@ function Button(){
         cursor: "pointer",
     }
 
+    const handeClick = (e) => {
+        e.target.textContent = "Ouch!";
+    }
+
     return(
-        <button style={styles}>Click Me</button>
+        <button onDoubleClick={(e) => handeClick(e)} style={styles}>Click Me</button>
     );
 }
 
