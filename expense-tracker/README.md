@@ -1,6 +1,6 @@
 # Expense Tracker App
 
-This project is a web-based Expense Tracker application, developed using JavaScript, React, HTML, and CSS with Material-UI (MUI) for design components. The app allows users to manage their expenses effectively with an intuitive and visually appealing interface.
+This project is a web-based Expense Tracker application, developed using JavaScript, React, HTML, and CSS with Material-UI (MUI) for design components. The app allows users to manage their expenses effectively with an intuitive and visually appealing interface. Here is online presentation https://react-pi-six.vercel.app/
 
 ## Features
 
